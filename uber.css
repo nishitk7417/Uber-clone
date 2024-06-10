@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar {
+  background-color: black;
+  padding: 0px 80px 0px 80px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 30px;
+}
+li {
+  display: inline-block;
+}
+.logo1 a {
+  font-size: 14px;
+  padding: 10px;
+  margin: 2px;
+}
+.logo2 a {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  margin-right: 20px;
+}
+.logo2 button {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  width: 80px;
+  height: 38px;
+  border-radius: 30px;
+}
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 818px;
+}
+.inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  height: 690px;
+}
+.last h1 {
+  display: inline-block;
+  color: white;
+  font-size: 52px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 160px;
+}
+.last p {
+  color: white;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.img {
+  display: flex;
+}
+.img img {
+  height: 690px;
+  width: 560px;
+  border-radius: 8px;
+}
+.inner2 {
+  display: flex;
+  flex-direction: column;
+  width: 453px;
+  height: 382px;
+}
+
+.last1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#location {
+  background-color: white;
+  padding: 10px 0px 10px 36px;
+  height: 50px;
+  width: 400px;
+  margin-top: 18px;
+  border-radius: 10px;
+}
+.last1 button {
+  width: 127px;
+  border-radius: 8px;
+  height: 48px;
+  font-size: 15px;
+  margin-top: 12px;
+  padding: 14px 25px;
+}
+#destination {
+  background-color: white;
+  padding: 10px 0px 10px 36px;
+  height: 50px;
+  width: 400px;
+  margin: 8px 0px 4px 0px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 1020px) {
+  .inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo1 {
+    opacity: 0;
+  }
+  .container {
+    height: 1500px;
+  }
+  .img img {
+    margin-top: 15px;
+  }
+}
+.logo1 a:hover{
+    background-color: rgb(46, 46, 46);
+    border-radius: 50px;
+}
